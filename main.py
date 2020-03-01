@@ -23,7 +23,8 @@ def namMessage():
 #*************************************#
 
 # Son's function goes here:
-
+def sonMessage():
+   return "Vodka"
 
 
 #*************************************#
@@ -74,6 +75,7 @@ def ourMessages():
   print(namMessage())
   print(tungMessage())
   print(hinaMessage())
+  print(sonMessage())
 
 #This will call the ourMessages function.
 ourMessages()
