@@ -3,8 +3,9 @@ print("Your task is to take this file, add a function in the space below that re
 
 
 # Hina's function goes here:
-
-
+def hinaMessage():
+   ''' This function returns a message from hina '''
+   return 'yay life'
 
 #*************************************#
 
@@ -15,13 +16,15 @@ print("Your task is to take this file, add a function in the space below that re
 #*************************************#
 
 # Nam's function goes here:
-
+def namMessage():
+   return "I need to talk to someone other than my maid all week long..."
 
 
 #*************************************#
 
 # Son's function goes here:
-
+def sonMessage():
+   return "Vodka"
 
 
 #*************************************#
@@ -40,7 +43,8 @@ def jadenMessage():
 #*************************************#
 
 # Tung's function goes here
-
+def tungMessage():
+   return "I hate corona :("
 
 
 #*************************************#
@@ -68,6 +72,10 @@ def ourMessages():
   print(extraFunction())
   # Each of you should also print and call your functions here.
   print (jadenMessage())
+  print(namMessage())
+  print(tungMessage())
+  print(hinaMessage())
+  print(sonMessage())
 
 #This will call the ourMessages function.
 ourMessages()
