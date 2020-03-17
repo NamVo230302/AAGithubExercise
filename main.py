@@ -32,7 +32,7 @@ def sonMessage():
 # Jaden's function goes here:
 
 def jadenMessage():
-   return "I ate a sandwich for lunch :)"
+   return "I ate curry for lunch :D"
 
 #*************************************#
 
